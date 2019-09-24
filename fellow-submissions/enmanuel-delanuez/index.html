@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css"/>
     <title>Meme Quiz</title>
 </head>
 <body>
-    <h1>Enmanuel's Meme Quiz</h1>
-    <form action='#' method='post'>
+    <h1 class='block fixed color themed' id='heading'>Enmanuel's Meme Quiz</h1>
+    <form action='#' method='post' class='card'>
         <fieldset>
             <legend>Test you knowledge of dead memes</legend>
-            <section class='milraid'>
+            <section class='milraid block fixed color themed'>
                 <p>Which US military base was successfully raided on September 20th, 2019?</p>
                 <ul>
                     <li>
@@ -33,7 +34,7 @@
                     </li>
                 </ul>
             </section>
-            <section class='daniel'>
+            <section class='daniel milraid block fixed color themed'>
             <p>What was Daniel wearing when he was 'back at it again'?</p>
             <label for="daniel_shoes">Select a shoe</label>
             <select name="wearing" id="daniel_shoes">
@@ -46,7 +47,7 @@
             </select>
             
             </section>
-            <section class='surgery'>
+            <section class='surgery milraid block fixed color themed'>
             <p>What did they do a surgery on?</p>
             <label for="surgery">Choose one</label>
             <select name="surgery_on" id="surgery">
@@ -59,7 +60,7 @@
             </select>
             </section>
             
-            <section class='quote'>
+            <section class='quote milraid block fixed color themed'>
                 <blockquote>
                     <p>"I see this as an absolute _____"</p>
                     <cite>- The Hulk</cite>
@@ -69,7 +70,7 @@
                 <input type="text" name="quote" id='quote'/>
             </section>
             
-            <section class='9plus10'>
+            <section class='9plus10 milraid block fixed color themed'>
                 <p>What is 9 + 10?</p>
                 <ul>
                     <li>
@@ -91,7 +92,7 @@
                 </ul>
             </section>
             
-            <section class='kom'>
+            <section class='kom milraid block fixed color themed'>
                 <label for="kom">How did <i>Kombucha Girl</i> react to tasting a kombucha?</label>
                 <textarea name="explain" id='kom' cols='30' rows='6' placeholder='Describe her reaction here...'></textarea>
                 <input type="submit" value="Submit" class='submit' disabled/>
