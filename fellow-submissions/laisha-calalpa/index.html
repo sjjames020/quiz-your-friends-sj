@@ -10,20 +10,53 @@
 </head>
 <body>
     <header>
-        <h1>Survey</h1>
+        <h1>HOW WOULD YOU LIKE THAT COOKED?</h1>
     </header>
     <form action="#" method"post">                                       <!--# is a placeholder, action -->
         <fieldset> 
-            <label for "name">Name:
-                <input type="text" id="name" name="user_name"></label>
-             <label for "email">Email: </label>
-                <input type="text" id="email" name="email-address">
-             <label for "age">Age: </label>
-                <input type="text" id="age" name="user_age">
-                
+            <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" placeholder="Your Name Here">
+             <label for="email">Email: </label>
+                <input type="text" id="email" name="email-address" placeholder="name@domain.com">
+             <label for="age">Age: </label>
+                <input type="text" id="age" name="user_age" placeholder="Your Age Here">
+        </fieldset>
+        <fieldset>
+            <legend>Do you have a doneness preference?</legend>
+            <ul>
+                <li>
+                    <label for="preference1">
+                        <input type="radio" id="preference1" name="preference">
+                        Yes
+                    </label>
+                </li>
+                <li>
+                    <label for="preference2">
+                        <input type="radio" id="preference2" name="preference">
+                        Unsure
+                    </label>
+                </li>
+                <li>
+                    <label for="preference3">
+                        <input type="radio" id="preference3" name="preference">
+                        No
+                    </label>
+                </li>
+            </ul>
         </fieldset>
         
-        <textarea placeholder="HOW CAN THIS SURVEY BE IMPROVED"></textarea>
+        <fieldset>
+            <legend>Check off any protein(s) that you may have a doneness preference for</legend>
+            <label for="steak"></label>
+                <input type="checkbox">
+            <label for="salmon"></label>
+            <label for="eggs"></label>
+            <label for="salmon"></label>
+        </fieldset>
+        
+        <!--<fieldset>-->
+        <!--    <textarea placeholder="HOW CAN THIS SURVEY BE IMPROVED" cols="20" rows="10"></textarea>-->
+        <!--<fieldset>-->
     </form>
 </body>
 </html>
