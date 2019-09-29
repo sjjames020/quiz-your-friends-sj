@@ -12,7 +12,6 @@ body{
 header{
   text-align: center;
   font-size: 25px;
-  
 }
 
 input{
@@ -25,20 +24,27 @@ input{
 
 fieldset{
     border: none;
-	padding: 0 40%;
+	padding: 0 30%;
+}
+
+p, ul{
+    border-bottom: 1px solid black;
 }
 
 li{
-    list-style:none;
+    list-style: none;
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 50px;
 }
-ul{
-    padding:0;
+
+select.temp{
+    padding:0 20px;
 }
+
 textarea{
-    max-width: 290px;
-    min-width: 290px;
-    max-height: 100px;
-    min-height: 100px;
+    max-width: 550px;
+    min-width: 550px;
+    max-height: 60px;
+    min-height: 80px;
+    margin-bottom: 10px;
 }
