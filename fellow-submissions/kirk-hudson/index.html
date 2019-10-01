@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <h1>Quiz Your Friends!</h1>
+      <form>
+          <label for="character">Who is your favorite fictional character?</label>
+              <input type="text" id="character" name="user_character"/>
+          <label for="location">If you could take a vaction anywhere, where would your destination be?</label>
+              <input type="text" id="location" name="user_location"/>
+          <label for="birth">Which month were you born in?</label>
+              <select id="birth" name="user_birth">
+              <option>January</option>
+              <option>February</option>
+              <option>March</option>
+              <option>April</option>
+              <option>May</option>
+              <option>June</option>
+              <option>July</option>
+              <option>August</option>
+              <option>September</option>
+              <option>October</option>
+              <option>November</option>
+              <option>December</option>
+          </select>
+          <label for="musician">Which genres of music do you enjoy?</label>
+          <ul>
+          <li><input type="checkbox" id="genre" name="user_genre"> Hip-Hop </li>
+          <li><input type="checkbox" id="genre" name="user_genre"> Rock</li>
+          <li><input type="checkbox" id="genre" name="user_genre"> Country</li>
+          <li><input type="checkbox" id="genre" name="user_genre"> Electronic</li>
+          <li><input type="checkbox" id="genre" name="user_genre"> Reggae</li>
+          <li><input type="checkbox" id="genre" name="user_genre"> Jazz</li>
+          <li><input type="checkbox" id="genre" name="user_genre"> Pop</li>
+          <li><input type="checkbox" id="genre" name="user_genre"> Classical</li>
+          </ul>
+          <label for="catdog"> Which do you prefer, cats or dogs?</label>
+          <input type="radio" id="cat-dog" name="user_cat-dog"> Cat
+          <input type="radio" id="cat-dog" name="user_cat-dog"> Dog
+          <textarea placeholder="Why?"></textarea>
+          <input type="submit" id="submit" value="Submit">
+      </form>
+  </body>
+</html>

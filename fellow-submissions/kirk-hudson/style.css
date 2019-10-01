@@ -1,0 +1,46 @@
+html {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+label {
+    display: block;
+    padding-top: 10px;
+}
+
+form {
+    width: 40%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+h1 {
+    text-align: center;
+}
+
+textarea {
+    display: block;
+    color:grey;
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    max-height: 100px;
+
+}
+
+li {
+    display:block;
+    list-style: none;
+
+   
+}
+
+ul {
+        margin-top: 10px;
+        margin-bottom: 0;
+}
+
