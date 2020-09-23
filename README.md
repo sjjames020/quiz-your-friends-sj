@@ -17,12 +17,7 @@ Styling for forms can range from annoying to extremely challenging. Simplicity r
 ### Submission Process
 1. Fork this repo
 2. Clone it
-3. Create a folder `first-last` inside of `fellow-submissions`
-4. Add your `index.html` and `style.css` to your `first-last` folder
-5. Commit early and often
-6. Push to your remote repo when you are finished.
-7. Open a pull request to submit.
-
-### Due Date
-9AM Tuesday, September 24, 2019
-
+3. Create your `index.html` and `style.css` files.
+4. Commit early and often.
+5. Push to your remote repo when you are finished.
+6. Open a pull request into `The-Marcy-Lab-School:master` to submit.
