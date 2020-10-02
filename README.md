@@ -14,7 +14,7 @@ You are to use and HTML Forms and CSS to create and style a 5 question quiz on a
 ### Note
 Styling for forms can range from annoying to extremely challenging. Simplicity rules here. Style your quiz to be clean, readable, and organized. No need for anything fancy or advanced. For an example, see [here](https://codepen.io/freeCodeCamp/full/VPaoNP)
 
-####Directions
+#### Directions
 1. If this is a *Practice Lab*, fork this repo and clone down the forked repo. **OR**
       * If this is a *Lab Assignment*, just clone this repo without forking it.
 2. Create your HTML and CSS files.
