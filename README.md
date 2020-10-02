@@ -14,10 +14,10 @@ You are to use and HTML Forms and CSS to create and style a 5 question quiz on a
 ### Note
 Styling for forms can range from annoying to extremely challenging. Simplicity rules here. Style your quiz to be clean, readable, and organized. No need for anything fancy or advanced. For an example, see [here](https://codepen.io/freeCodeCamp/full/VPaoNP)
 
-### Submission Process
-1. Fork this repo
-2. Clone it
-3. Create your `index.html` and `style.css` files.
-4. Commit early and often.
-5. Push to your remote repo when you are finished.
-6. Open a pull request into `The-Marcy-Lab-School:master` to submit.
+####Directions
+1. If this is a *Practice Lab*, fork this repo and clone down the forked repo. **OR**
+      * If this is a *Lab Assignment*, just clone this repo without forking it.
+2. Create your HTML and CSS files.
+3. Stage, commit, and push your changes regularly.
+4. If this is a *Practice Lab*, open a pull request into `The-Marcy-Lab-School:master` branch to submit. **OR**
+      * If this is a *Lab Assignment*, copy the URL of this repo and submit it through Canvas. 
