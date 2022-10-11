@@ -1,0 +1,11 @@
+body{
+    background-color: yellow;
+}
+
+input{
+    display: block;
+}
+
+label{
+    display: block;
+}
