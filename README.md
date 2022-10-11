@@ -2,7 +2,7 @@
 ## Quiz Your Friends!
 
 ### Directions
-Whether it be anime, fashion, travel, music, your interests are all so interesting and unique. You each are an ✌🏾expert✌🏾 at something and your job is to create a quiz to test the expertise of your classmates!
+Whether it be anime, fashion, travel, music, your interests are all so interesting and unique. You each are an ✌🏾expert✌🏾 at something and your job is to create a quiz/interest form to test the expertise of your classmates!
 
 You are to use and HTML Forms and CSS to create and style a 5 question quiz on a topic of your choosing. You are to use each of the following input types at least once:
 * `<input type="text">`
